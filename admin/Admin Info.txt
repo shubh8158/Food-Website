@@ -1,0 +1,16 @@
+Dependencies we use:
+1.React
+2.Axios(for creating API requests)
+3.Toastify(use to create toast notification easily)
+4.React Router DOM
+
+Using URL.createObjectUrl we can set a preview of image (its is used for parsing Media Source)
+
+Process:
+1)First we install React then create components folder in which we create JSX files for different Components and one PAGES folder in which we create a files for creating PAGES
+2)Components-> Sidebar,Navbar
+3)We create pages :
+  Pages-> Add ->Add.jsx,List->,Orders->
+4)Then we create a routes using react-router-dom in app.jsx (/add,/list,/orders) and link it to sidebar using Navlink tag from react-router-dom
+5)Then we stored data in DB from add items form using Add.jsx 
+6)At last we prepare a list items page where all the items are listed with its name category price and other details .
